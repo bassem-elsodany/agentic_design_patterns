@@ -30,7 +30,7 @@ This project provides a hands-on introduction to agentic design patterns with La
 ## Agent Types
 
 ### 1. Tool Agent
-![Tool Agent](imgs/tools_agent.png)
+![Tool Agent](imgs/tools_agent.jpg)
 
 **ToolAgent** lets an LLM-powered agent call external functions ("tools") to answer user questions. The agent decides which tool to use and with what arguments, then combines the results with its own reasoning.
 
@@ -39,7 +39,7 @@ This project provides a hands-on introduction to agentic design patterns with La
 ---
 
 ### 2. React Agent
-![React Agent](imgs/planning-agent.png)
+![React Agent](imgs/planning-agent.jpg)
 
 **ReactAgent** implements the ReAct (Reasoning + Acting) pattern. The agent alternates between thinking (thoughts) and acting (tool calls), chaining multiple steps to solve complex problems.
 
@@ -48,7 +48,7 @@ This project provides a hands-on introduction to agentic design patterns with La
 ---
 
 ### 3. Self-Reflection Agent
-![Self-Reflection Agent](imgs/selfReflection-agent.png)
+![Self-Reflection Agent](imgs/selfReflection-agent.jpg)
 
 **SelfReflectionAgent** improves its answers by generating a response, critiquing it, and revising until satisfied. This loop helps the agent produce higher-quality, more accurate outputs.
 
@@ -57,7 +57,7 @@ This project provides a hands-on introduction to agentic design patterns with La
 ---
 
 ### 4. Multi-Agent
-![Multi-Agent](imgs/multi-agent.png)
+![Multi-Agent](imgs/multi-agent.jpg)
 
 **MultiAgent** systems allow multiple agents to work together, share context, and solve tasks collaboratively. Agents can depend on each other, forming workflows or pipelines.
 
