@@ -33,7 +33,7 @@ For each function call, respond with a JSON object containing the function name,
 
 Available functions:
 <tools>
-{{tools}}
+{tools}
 </tools>
 
 If the user's question cannot be answered with the provided functions, reply directly, enclosing your answer in <response></response> tags.
@@ -45,6 +45,7 @@ If the user's question cannot be answered with the provided functions, reply dir
         model="llama-3.3-70b-versatile",
         system_prompt=TOOL_SYSTEM_PROMPT
     )
+    logger.debug(f"Final system prompt used:\n{agent.system_prompt}")
     user_prompt = (
         "You have access to the following tool: get_planet_distance(planet: str) -> str. "
         "What is the distance from Earth to Mars? Please show your reasoning and tool use step by step, "
